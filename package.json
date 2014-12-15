@@ -1,0 +1,35 @@
+{
+  "name": "qserve",
+  "version": "0.0.0",
+  "description": "quickly serve out of a directory",
+  "main": "index.js",
+  "bin": {
+    "qserve": "./bin/qserve"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "static",
+    "connect",
+    "simple"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kolodny/qserve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolodny/qserve/issues"
+  },
+  "homepage": "https://github.com/kolodny/qserve",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "connect": "^3.3.3",
+    "serve-favicon": "^2.1.7",
+    "serve-index": "^1.5.3",
+    "serve-static": "^1.7.1"
+  }
+}
