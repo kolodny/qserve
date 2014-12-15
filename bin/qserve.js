@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var qserve = require('../lib');
 var resolve = require('path').resolve
 var program = require('commander');
