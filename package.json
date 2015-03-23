@@ -1,6 +1,6 @@
 {
   "name": "qserve",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "quickly serve out of a directory",
   "main": "index.js",
   "bin": {
@@ -28,8 +28,10 @@
   "dependencies": {
     "commander": "^2.5.0",
     "connect": "^3.3.3",
+    "open": "0.0.5",
     "serve-favicon": "^2.1.7",
     "serve-index": "^1.5.3",
-    "serve-static": "^1.7.1"
+    "serve-static": "^1.7.1",
+    "zort": "^1.0.0"
   }
 }
